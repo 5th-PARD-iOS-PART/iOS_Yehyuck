@@ -24,8 +24,8 @@ extension BankData{
 
     static let modeling: [[BankData]] = [
         [
-          //  BankData(icon: "hana", balance: "339,690원", name: "WINGO통장", buttonText: "송금",changeText: nil, changeColor: nil, isNavigatable: false),
-            //BankData(icon: "toss", balance: "38,841", name: "토스뱅크통장", buttonText: "송금",changeText: nil, changeColor: nil, isNavigatable: true),
+            BankData(icon: "hana", balance: "339,690원", name: "WINGO통장", buttonText: "송금",changeText: nil, changeColor: nil, isNavigatable: false),
+            BankData(icon: "toss", balance: "38,841", name: "토스뱅크통장", buttonText: "송금",changeText: nil, changeColor: nil, isNavigatable: true),
             BankData(icon: "lightning", balance: "114원", name: "토스뱅크에 쌓인 이자", buttonText: "지금받기",changeText: nil, changeColor: nil, isNavigatable: false),
             BankData(icon: "kbank", balance: "650원", name: "MY입출금통장", buttonText: "송금",changeText: nil, changeColor: nil, isNavigatable: false),
             BankData(icon: "kookmin", balance: "2,090원", name: "KB나라사랑우대통장", buttonText: "송금",changeText: nil, changeColor: nil, isNavigatable: false),

@@ -88,7 +88,7 @@ struct BankViewTwo: View {
                                         .background(Color.blue.opacity(0.1))
                                         .cornerRadius(12)
                                 }
-                                NavigationLink(destination: SendMoneyView().toolbar(.hidden, for: .tabBar)) {
+                                
                                     Text("보내기")
                                         .font(.headline)
                                         .foregroundColor(.white)
@@ -96,7 +96,6 @@ struct BankViewTwo: View {
                                         .padding()
                                         .background(Color.blue)
                                         .cornerRadius(12)
-                                }
                                 
                             }
                             
